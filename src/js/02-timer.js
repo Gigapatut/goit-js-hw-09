@@ -63,8 +63,8 @@ const options = {
             clearInterval(timerId);
             startBtn.disabled = true;
           }; 
-        }, 1000);  
-                           
+        }, 1000);     
+                                   
       });
     };         
   },      
