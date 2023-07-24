@@ -14,6 +14,8 @@ const remHours = document.querySelector('span[data-hours]');
 
 const remDays = document.querySelector('span[data-days]');
 
+let timerId = null;
+
 startBtn.disabled = true;
 
 const options = {
